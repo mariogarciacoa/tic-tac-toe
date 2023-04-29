@@ -26,7 +26,7 @@ Para jugar al juego, sigue estos pasos:
 1. Clona el repositorio en tu máquina local: 
 
 ```
-git clone https://github.com/mariogarciacoa/tic-tac-toe-react.git
+git clone https://github.com/mariogarciacoa/tic-tac-toe.git
 ```
 
 2. Instala las dependencias:
@@ -38,7 +38,7 @@ npm install
 3. Inicia el servidor local:
 
 ```
-npm start
+npm run dev
 ```
 
 4. Abre el juego en tu navegador en la dirección `http://localhost:3000`.
