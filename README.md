@@ -26,7 +26,7 @@ Para jugar al juego, sigue estos pasos:
 1. Clona el repositorio en tu máquina local: 
 
 ```
-git clone https://github.com/tu_usuario/tic-tac-toe-react.git
+git clone https://github.com/mariogarciacoa/tic-tac-toe-react.git
 ```
 
 2. Instala las dependencias:
