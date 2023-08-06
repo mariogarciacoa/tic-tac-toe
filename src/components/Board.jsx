@@ -1,6 +1,6 @@
 
 import { ScoreBoard } from './ScoreBoard'
-import { Square } from './square'
+import { Square } from './Square'
 
 export function Board ({ board, updateBoard, score }) {
   return (
