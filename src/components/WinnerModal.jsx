@@ -1,4 +1,4 @@
-import { Square } from './square.jsx'
+import { Square } from './Square'
 
 export function WinnerModal ({ winner, resetGame, startAgain }) {
   if (winner === null) return null
