@@ -19,6 +19,10 @@ Este es un juego de Tic-Tac-Toe desarrollado con React, que permite jugar múlti
 - Javascript
 - React
 
+## URL
+
+- https://64cfc49afef381000828d7da--mariogarciacoa-tictactoe.netlify.app/
+
 ## Uso
 
 Para jugar al juego, sigue estos pasos:
