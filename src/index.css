@@ -5,35 +5,34 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #f4f1f7;
+  background-color: #1b1b1b;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 
 body {
   margin: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+ 
 }
 
 .panel {
   display: flex;
   justify-content: center;
   align-items: center;
- 
   gap: 40px;
 }
 
@@ -51,22 +50,22 @@ body {
 }
 
 .board {
+  padding: 20px;
   width: fit-content;
-  margin: 40px auto;
   text-align: center;
 }
 
 .board h1 {
-  color: #eee;
-  margin-bottom: 20px;
+  font-size: 3em;
+  margin-bottom: 40px;
 }
 
 .board button {
   padding: 8px 12px;
   margin: 25px;
   background: transparent;
-  border: 2px solid #eee;
-  color: #eee;
+  border: 2px solid #f4f1f7;
+  color: #f4f1f7;
   width: 100px;
   border-radius: 5px;
   transition: 0.2s;
@@ -76,17 +75,17 @@ body {
 
 .btn-reset-game:hover {
   background: rgb(222, 46, 89);
-  color: #ffffff;
+  color: #f4f1f7;
 }
 
 .btn-next-round:hover {
   background: rgb(0, 210, 106);
-  color: #ffffff;
+  color: #f4f1f7;
 }
 
 .btn-new-game:hover {
   background: rgb(222, 46, 89);
-  color: #ffffff;
+  color: #f4f1f7;
 }
 
 .board .game {
@@ -120,8 +119,8 @@ body {
 }
 
 .square.is-selected {
-  color: #fff;
-  background: #09f;
+  color: #f4f1f7;
+  background: #52bdff;
 }
 
 .winner {
@@ -139,7 +138,7 @@ body {
   background: #111;
   height: 300px;
   width: 320px;
-  border: 2px solid #eee;
+  border: 2px solid #f4f1f7;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -151,7 +150,7 @@ body {
 .winner .win {
   margin: 0 auto;
   width: fit-content;
-  border: 2px solid #eee;
+  border: 2px solid #f4f1f7;
   border-radius: 10px;
   display: flex;
   gap: 15px;
@@ -160,12 +159,11 @@ body {
 .square {
   width: 100px;
   height: 100px;
-  border: 2px solid #ffffff;
+  border: 2px solid #f4f1f7;
   border-radius: 5px;
   display: grid;
   place-items: center;
   cursor: pointer;
   font-size: 48px;
-  background-color: rgb(0, 0, 0, 0,7);
 }
 

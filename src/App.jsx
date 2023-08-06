@@ -1,4 +1,3 @@
-import './App.css'
 import { useState } from 'react'
 import { Turn } from './components/TurnSection'
 import { Head } from './components/Head'
